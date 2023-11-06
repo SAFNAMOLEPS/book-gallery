@@ -4,7 +4,7 @@
     padding: 0;
 }
 header{
-    background-color: rgba(253, 56, 1, 0.847);
+    background-color: rgba(141, 35, 5, 0.847);
     width: 100%;
     height: 30px;
     padding: 9px;
@@ -15,22 +15,30 @@ header h2{
 }
 header h2:hover{
     color: rgb(246, 240, 250);
+    text-shadow: 4px 5px 6px black;
 }
 
-footer,p{
-    background-color:rgba(251, 64, 12, 0.966); 
+footer,ul , li {
+    background-color: rgba(141, 35, 5, 0.847);
     color:rgb(17, 17, 16);
     width: 100%;
     padding: 8px;
     text-align: center;
+    font-weight: bolder;
 }
-footer,p:hover{
+footer li a{
+    color: black;
+}
+a:hover{
     color:rgb(251, 251, 251) ;
 }
 h4{
-    color:rgb(4, 4, 4);
-    background-color:rgba(245, 71, 23, 0.847);
+    color:rgb(19, 18, 19);
+    
     padding: 8px;
+    height: 20px;
+    font-weight: bolder;
+    font-size: x-large;
 }
 h4:hover{
     color: rgb(243, 241, 245);
@@ -46,34 +54,40 @@ h4:hover{
 }
 .row{
     width: 100%;
-    height: 450px;
-    background-color: rgb(222, 210, 210);
+    height: 500px;
+    background-color: rgb(35, 32, 32);
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 .col{
-    background-color: rgb(236, 173, 142);
-    width: 250px;
+    background-color: rgb(249, 246, 245);
+    width: 220px;
     height: 350px;
-    
+    border-radius: 40px;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 50px;
     padding: 30px;
     margin: 10px;
 }
 button{
-    background-color: rgb(244, 48, 48);
-    color: rgb(18, 17, 17);
-    padding: 3px;
+    background-color: rgba(222, 37, 37, 0.893);
+    
     border: none;
+}
+button, a{
+    color: rgb(253, 253, 239);
+    padding: 6px;
+    text-decoration: none;
+    border-radius: 500px;
+    font-weight: bolder;
 }
 button:hover{
     border: 3px ridge black;
 }
 h3,h5{
     padding: 5px;
-    color: rgb(8, 8, 8);
+    color: rgb(202, 5, 228);
 }
 @media screen and (max-width:400px){
 *{
